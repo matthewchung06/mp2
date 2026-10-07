@@ -1,0 +1,73 @@
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.buttons a {
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+.buttons a:hover {
+  background-color: #eee;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.card img {
+  width: 240px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.card h2 {
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.card p {
+  margin: 4px 0;
+  text-transform: capitalize;
+}
+
+.number {
+  color: #888;
+  font-weight: normal;
+}
+
+.stats {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+  max-width: 260px;
+}
+
+.stats li {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  border-bottom: 1px solid #eee;
+  text-transform: capitalize;
+}
+
+.missing {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.missing a {
+  color: #c62828;
+  text-decoration: underline;
+}
